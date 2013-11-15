@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.policy.impl.keyguard.KeyguardLawmoView android:gravity="bottom" android:orientation="vertical" android:id="@id/keyguard_lawmo_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/keyguard_accessibility_password_unlock" android:layout_maxHeight="@dimen/keyguard_security_height" android:layout_maxWidth="@dimen/keyguard_security_width"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/keyguard_message_area" />
+    <TextView android:textSize="16.0dip" android:textColor="#fff9f9f9" android:gravity="center_horizontal" android:layout_gravity="top|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/status_bar_device_locked" android:shadowColor="#55000000" android:shadowDx="2.0" android:shadowDy="2.0" android:shadowRadius="2.0" />
+    <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <include android:gravity="center_horizontal" android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/keyguard_selector_fade_container" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/keyguard_eca" />
+</com.android.internal.policy.impl.keyguard.KeyguardLawmoView>
